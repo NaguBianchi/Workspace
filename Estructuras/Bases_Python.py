@@ -6,14 +6,14 @@ Normalmente se utilizan para los docstrings
 o mofigicar indicaciones o codigo complejo
 """
 
-#print ("Hello world") #para mostrar mensajes en pantalla
+print ("Hello world") #para mostrar mensajes en pantalla
 
-#input("Ingrese un numero: ") pero lo reconoce como caracteres
+input("Ingrese un numero: ") #pero lo reconoce como caracteres
 
 #Convencion de nombres
-car = 10
-CAR = 20
-_car = 30
+car = 10  #minuscula
+CAR = 20  #Primera letra mayuscula
+_car = 30 #Comienza con guion
 
 """
 Variables numericas:
@@ -51,6 +51,7 @@ def calcular_nota():
 
     prom = (num1 + num2) / 2
     print("El promedio de " + nombre + " es: " + str(prom))
+    print(f"el promedio de {nombre} es: {prom}")
 
     if prom >= 7: #Se puede usar if solo
         print('El alumno esta promocionado')
@@ -60,3 +61,27 @@ def calcular_nota():
         print ('El alumno esta libre')
 
 calcular_nota()
+
+"""
+Operadores Logicos o de comparacion
+== igual
+!= distinto
+< menor
+<= menor o igual
+> mayor
+>= mayor o igual
+
+and
+or
+"""
+
+print(1 == 1)
+print(1 != 1)
+print(1 < 1)
+print(1 <= 1)
+print(1 > 1)
+print(1 < 1)
+print(1 >= 1)
+
+print(1 == 1 or 1 > 1)
+print(1 == 1 and 1 > 0)

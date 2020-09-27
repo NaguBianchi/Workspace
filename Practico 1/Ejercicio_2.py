@@ -5,10 +5,13 @@ result2 = pow(num2, 2)                        #Calculamos el cuadrado de cada un
 
 if result1 == result2:                        #Alpicamos condicional para mostrar resultados
     print('Los valores son iguales')
-else:
+elif num1 > num2:
     result = result1 / result2
-    print('El resultado de la division es: ', result) # Falta evaluacion para verificar cual es el mayor y cual es el menor si num1 > num2 entonces el 
-                                                      # resultado esta bien calculado, pero si es al reves el resul deberia ser igual a result2/result1
+    print('El resultado de la division es: ', result)
+else:
+    num1 < num2
+    result = result1 / result2
+    print('El resultado de la division es: ', result)
 
 """
 Dados dos número enteros, se necesita saber el resultado de dividir el cuadrado del
