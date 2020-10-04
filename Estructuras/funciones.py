@@ -19,6 +19,7 @@ Funciones con retorno
 Son funciones que retornan un valor para ser usado en otra funcion
 """
 
+
 def suma():
     a = int(input('Ingrese un numero: '))
     b = int(input('Ingrese otro numero: '))
@@ -26,6 +27,26 @@ def suma():
     sum = a + b
     return sum
 
+# s = suma()
+# print('El resultado es : ' + str(s))
 
-#s = suma()
-#print('El resultado es : ' + str(s))
+# retorno
+# No se puede retornar un print de pantalla
+# Tampoco se puede retornar mas de 1 vez a no ser que tengas un condicional
+
+def que_temperatura_es():
+    return '30 grados'
+
+temp = que_temperatura_es()
+print(f'La temperatura es: {temp}')
+
+# Se puede llamar a una funcion dentro de otra funcion y que ambas tengan retorno
+
+# otro ej
+
+def que_temperatura_es_en_celcius(f):
+    c = (5 / 9) * (f - 32)
+    return c
+
+g = que_temperatura_es_en_celcius(f = 32)
+print(g)

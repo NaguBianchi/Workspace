@@ -26,7 +26,6 @@ def caso_3(num1, num2):
         result = (num1 * num1) / (num2 * num2)
         return result
     else:
-        num1 < num2
         result = (num1 * num1) /(num2 * num2)
         return result
 
@@ -34,3 +33,5 @@ def caso_4():
     temp = float(input('Ingrese la temperatura en Fahrenheit a convertir a Celcius: '))
     celc = (5 / 9) * (temp - 32)
     return celc
+
+

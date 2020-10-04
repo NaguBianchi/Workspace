@@ -8,7 +8,7 @@ def menu():
     print("3. Dividir el cuadrado de 2 numeros segun cual sea el mayor.")
     print("4. Convertidor de grados Far a grados Celc.")
     print("-------------------------------------------------------------------")
-    num = int(input("Ingrse la opcion que desea realizar:"))
+    num = int(input("Ingrese la opcion que desea realizar:"))
 
     if num == 1:
         Funciones.caso_1()
