@@ -28,6 +28,8 @@ def menu():
     elif num == 4:
         r = Funciones.caso_4()
         return print(f"El resultado de la conversion es: {r}")
+    else:
+        print("La opcion ingresada no es valida")
 
 
 menu()

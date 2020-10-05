@@ -26,9 +26,14 @@ def ejercicio_4_while():
     while nota != 0:
         acum = acum + nota
         count = count + 1
-        nota = float(input("Ingrese una nota: "))
         print('Ingrese 0 para finalizar')
+        nota = float(input("Ingrese una nota: "))
 
-    prom = acum / count
-    print(f"El promedio de las notas es: {prom}")
+
+    if count == 0:
+        print("No fue ingresada ninguna nota")
+
+    else:
+        prom = acum / count
+        print(f"El promedio de las notas es: {prom}")
 

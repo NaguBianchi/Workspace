@@ -85,3 +85,8 @@ print(1 >= 1)
 
 print(1 == 1 or 1 > 1)
 print(1 == 1 and 1 > 0)
+
+# Las variables al estar declaradas dentro de una estructura, solo se podra usar dentro
+# De esa misma estructura, diferente de cuanto declaras una variable al inicio
+# q podes utilizarla en to2 el codigo
+

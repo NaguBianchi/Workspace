@@ -51,6 +51,41 @@ def ciclo_while():
 
     print(f'El agua llego a los {temp} grados, por lo tanto, se congelo')
 
-ciclo_while()
-promedio_con_for()
-ciclo_for_frutas()
+#ciclo_while()
+#promedio_con_for()
+#ciclo_for_frutas()
+
+def vector_suma_numeros():
+
+    numeros = [1, 2, 3, 4, 5]
+
+    a = numeros[0]
+    b = numeros[1]
+    c = numeros[2]
+    d = numeros[3]
+    e = numeros[4]
+
+    suma = a + b + c + d + e
+
+    print(suma)
+    #Ambas retornan el mismo resultado
+    size = len(numeros)
+    acum = 0
+
+    for i in range(0, size):
+        acum = acum + numeros[i]
+    print (suma)
+
+
+def cargar_vector():
+
+    notas = []
+
+    size = int(input("Cuantas notas desea ingresar?: "))
+
+    for index in range(0, size):
+        nota = int(input("Ingrese nota: "))
+        notas.append(nota)
+
+    print(notas)
+
