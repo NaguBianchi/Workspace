@@ -67,7 +67,7 @@ class Gestionar_empleados:
             print("------------------------------------------------------")
             print("Empleado no encontrado")
             print("------------------------------------------------------")
-    #Una bandera es un valor booleano y sirve en estos casos para esot
+    #Una bandera es un valor booleano y sirve en estos casos para esto
 
 
     def asignar_horas(self, lista):
