@@ -17,7 +17,7 @@ class Transaccion(json.JSONEncoder):
 
     def save_trans(self, data):
         file = open(f'./data/{self.transaccion_id}.json', "w")
-        file.write(str(data.toJSON))
+        file.write(str(data.toJSON()))
         file.close()
 
 
